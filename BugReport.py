@@ -1,3 +1,12 @@
+"""1. Bug report class - easy
+Create a class called BugReport with attributes: title, severity (low/medium/high), status (open by default). 
+Add a method resolve() that changes status to "closed" and a method summary() that prints a one-line description.
+
+bug = BugReport("Login fails on Safari", "high")
+bug.summary()    # "Bug: Login fails on Safari | Severity: high | Status: open"
+bug.resolve()
+bug.summary()    # "Bug: Login fails on Safari | Severity: high | Status: closed" """
+
 class BugReport:
     def __init__(self, title, severity, status="open"):
         self.title = title
