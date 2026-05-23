@@ -19,4 +19,4 @@ class TestCase:
 tc = TestCase("Login test", "Welcome, User!", "Welcome, User!")
 tc.result()   # PASS: Login test
 tc2 = TestCase("Price test", "99.00", "98.99")
-tc2.result()  # FAIL: Price test"""
+tc2.result()  # FAIL: Price test
