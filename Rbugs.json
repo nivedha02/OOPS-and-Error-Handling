@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Login broken",
+        "severity": "high",
+        "status": "open"
+    },
+    {
+        "title": "UI glitch",
+        "severity": "low",
+        "status": "open"
+    }
+]
