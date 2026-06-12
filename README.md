@@ -176,7 +176,7 @@ Cannot divide by zero
 ---
 
 ### Problem 12 — Multiple exceptions (medium)
-[Problem 12 - MultipleException](./MultipleException.py)
+[Problem 12 - MultipleException](./MutipleException.py)
 #### Summary
 Write a function parse_age(value) that converts a string to integer and checks it's between 0–120. Handle ValueError if it's not a number, and raise a custom InvalidAgeError if out of range.
 
