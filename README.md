@@ -1,5 +1,5 @@
 ### Problem 1 - Bug report class (easy)
-[Problem 1 - Bug report class](./[problem-01-bug-report.md](https://github.com/nivedha02/OOPS-and-Error-Handling/blob/main/BugReport.py))
+
 #### Summary
 Create a class called BugReport with attributes: title, severity (low/medium/high), status (open by default). 
 Add a method resolve() that changes status to "closed" and a method summary() that prints a one-line description.
