@@ -50,7 +50,7 @@ Passed: 2 | Failed: 1
 ---
 
 ### Problem 4 — __str__ method (easy)
-[Problem 4 - bug_report](./bug_report.py)
+
 #### Summary
 Add a __str__ method to BugReport so that print(bug) automatically shows Bug: {title} | Severity: {severity} | Status: {status} without calling .summary().
 
@@ -230,6 +230,7 @@ Finished attempting to read file.
 
 ### Problem 15 — Modules (medium)
 [Problem 15 - mainfun](./mainfun.py)
+[Problem 15 - bug_report](./bug_report.py)
 #### Summary
 Split your code into two files:
 
