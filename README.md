@@ -16,7 +16,7 @@ bug.summary()    # "Bug: Login fails on Safari | Severity: high | Status: closed
 ---
 
 ### Problem 2 - Test case class (easy)
-
+[Problem 2 - Testcasevalidation](./Testcasevalidation.py)
 #### Summary
 Create a TestCase class with name, expected, and actual attributes. Add a method passed() that returns True if expected equals actual, and a method result() that prints PASS or FAIL.
 
@@ -32,7 +32,7 @@ tc2.result()  # FAIL: Price test
 ---
 
 ### Problem 3 — Classes and objects (medium)
-
+[Problem 3 - TestSuiteClass](./TestSuiteClass.py)
 #### Summary
 Create a TestSuite class with an empty list on creation. Add methods: add(tc) adds a TestCase, run() calls result() on every test, summary() prints passed and failed count.
 
@@ -50,7 +50,7 @@ Passed: 2 | Failed: 1
 ---
 
 ### Problem 4 — __str__ method (easy)
-
+[Problem 4 - bug_report](./bug_report.py)
 #### Summary
 Add a __str__ method to BugReport so that print(bug) automatically shows Bug: {title} | Severity: {severity} | Status: {status} without calling .summary().
 
@@ -65,7 +65,7 @@ Bug: Dark mode broken | Severity: low | Status: open
 ---
 
 ### Problem 5 — Class variable (easy)
-
+[Problem 5 - BugReportCount](./BugReportCount.py)
 #### Summary
 Add a class variable count to BugReport that tracks how many bug instances have been created. Every time a new bug is created, count goes up by 1. Print BugReport.count after creating 3 bugs — should print 3.
 
@@ -80,7 +80,7 @@ Add a class variable count to BugReport that tracks total instances created.
 ---
 
 ### Problem 6 — Encapsulation with private attribute (medium)
-
+[Problem 6 - AccountBalance](./AccountBalance.py)
 #### Summary
 Create a UserAccount class with a private attribute __balance. Add a get_balance() method to read it and a deposit(amount) method to add to it. Direct access like user.__balance should not work.
 
@@ -96,7 +96,7 @@ Create UserAccount with a private __balance. Add get_balance() and deposit(amoun
 ---
 
 ### Problem 7 — @property (medium)
-
+[Problem 7 - AccountBalancewithproperty](./AccountBalancewithproperty.py)
 #### Summary
 Modify UserAccount from problem 6. Replace get_balance() with a @property called balance so you can access it like user.balance instead of user.get_balance().
 
@@ -112,7 +112,7 @@ Modify UserAccount so balance is accessed like an attribute, not a method call.
 ---
 
 ### Problem 8 — Inheritance (medium)
-
+[Problem 8 - Inheritance](./Inheritance.py)
 #### Summary
 Create a base class Animal with name and a method speak() that prints "...". Create two child classes Dog and Cat that override speak() — Dog prints "Woof!", Cat prints "Meow!".
 
@@ -128,7 +128,7 @@ Meow!
 ---
 
 ### Problem 9 — super() (medium)
-
+[Problem 9 - SuperClass](./SuperClass.py)
 #### Summary
 Create a base class Employee with name and salary. Create a child class Manager that adds a team_size attribute. Use super().__init__() in Manager to avoid repeating the parent's init code.
 
@@ -143,7 +143,7 @@ Manager: Arun | Salary: 80000 | Team size: 5
 ---
 
 ### Problem 10 — Polymorphism (medium)
-
+[Problem 10 - Polymorphism](./Polymorphism.py)
 #### Summary
 Create three classes Circle, Rectangle, Triangle — each with an area() method. Write a function print_areas(shapes) that takes a list of any mix of these objects and prints each area. Same function, different behaviour per object.
 
@@ -160,7 +160,7 @@ Triangle area: 10.0
 ---
 
 ### Problem 11 — try/except (easy)
-
+[Problem 11 - ExpectionHandling](./ExpectionHandling.py)
 #### Summary
 Write a function divide(a, b) that returns a / b but catches ZeroDivisionError and prints "Cannot divide by zero" instead of crashing.
 
@@ -176,7 +176,7 @@ Cannot divide by zero
 ---
 
 ### Problem 12 — Multiple exceptions (medium)
-
+[Problem 12 - MultipleException](./MultipleException.py)
 #### Summary
 Write a function parse_age(value) that converts a string to integer and checks it's between 0–120. Handle ValueError if it's not a number, and raise a custom InvalidAgeError if out of range.
 
@@ -193,7 +193,7 @@ Invalid age: 150. Must be between 0 and 120.
 ---
 
 ### Problem 13 — Custom exception (medium)
-
+[Problem 13 - CustomException](./CustomException.py)
 #### Summary
 Create a custom exception InsufficientFundsError. Add a withdraw(amount) method to UserAccount from problem 6 that raises this exception if amount exceeds balance.
 
@@ -209,7 +209,7 @@ Insufficient funds: tried to withdraw 1500, balance is 800
 ---
 
 ### Problem 14 — finally (easy)
-
+[Problem 14 - ReadFileFinally](./ReadFileFinally.py)
 #### Summary
 Write a function read_file(filename) that opens and prints a file's contents. Use finally to always print "Finished attempting to read file." whether it succeeded or failed.
 
@@ -229,7 +229,7 @@ Finished attempting to read file.
 ---
 
 ### Problem 15 — Modules (medium)
-
+[Problem 15 - mainfun](./mainfun.py)
 #### Summary
 Split your code into two files:
 
